@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzs-QF-VWq">
+                                <rect key="frame" x="95" y="550" width="185" height="49"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Chọn đội hình xuất phát"/>
+                                <connections>
+                                    <action selector="chonCauthu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tWV-IA-0iq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="t380879.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iyn-hs-jxg">
+                                <rect key="frame" x="20" y="28" width="335" height="499"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwI-LO-ZbF">
+                                <rect key="frame" x="268" y="390" width="77" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8a-G0-a6N">
+                                <rect key="frame" x="192" y="412" width="81" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fk-hu-9Uj">
+                                <rect key="frame" x="95" y="418" width="89" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTW-41-1nh">
+                                <rect key="frame" x="29" y="389" width="76" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkG-mv-ZuG">
+                                <rect key="frame" x="83" y="323" width="92" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooJ-xL-rOr">
+                                <rect key="frame" x="263" y="203" width="82" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYb-5q-ZjS">
+                                <rect key="frame" x="158" y="225" width="83" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vjb-Ya-vvY">
+                                <rect key="frame" x="145" y="148" width="87" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ktf-zb-pTf">
+                                <rect key="frame" x="29" y="197" width="87" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjE-Vg-WVl">
+                                <rect key="frame" x="130" y="495" width="120" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Do3-dI-6J4">
+                                <rect key="frame" x="189" y="334" width="84" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50613105297088623" green="0.63087964057922363" blue="0.0891261026263237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pzs-QF-VWq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Qd-ph-wV3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Pzs-QF-VWq" secondAttribute="bottom" constant="30" id="d9X-7I-QTT"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="hauvephai" destination="WwI-LO-ZbF" id="B0W-yD-skt"/>
+                        <outlet property="hauvephaiscreen" destination="WwI-LO-ZbF" id="TFX-wC-m1L"/>
+                        <outlet property="hauvetrai" destination="RTW-41-1nh" id="SiX-mX-E84"/>
+                        <outlet property="hauvetraiscreen" destination="RTW-41-1nh" id="s1S-Yz-Ejs"/>
+                        <outlet property="hocong" destination="OYb-5q-ZjS" id="4VY-Gx-Lr7"/>
+                        <outlet property="hocongscreen" destination="OYb-5q-ZjS" id="OYR-ju-L8A"/>
+                        <outlet property="thumon" destination="kjE-Vg-WVl" id="yaU-CE-tEA"/>
+                        <outlet property="thumonscreen" destination="kjE-Vg-WVl" id="L8B-h2-x16"/>
+                        <outlet property="tiendao" destination="Vjb-Ya-vvY" id="F5q-w0-cfT"/>
+                        <outlet property="tiendaophai" destination="ooJ-xL-rOr" id="M0r-qM-2py"/>
+                        <outlet property="tiendaophaiscreen" destination="ooJ-xL-rOr" id="65A-rs-1yd"/>
+                        <outlet property="tiendaoscreen" destination="Vjb-Ya-vvY" id="Dmp-xV-MyA"/>
+                        <outlet property="tiendaotrai" destination="Ktf-zb-pTf" id="TqX-0M-Qoo"/>
+                        <outlet property="tiendaotraiscreen" destination="Ktf-zb-pTf" id="3v4-FU-Cvp"/>
+                        <outlet property="tienvephai" destination="Do3-dI-6J4" id="R4N-K4-wpW"/>
+                        <outlet property="tienvephaiscreen" destination="Do3-dI-6J4" id="Qv9-hI-StK"/>
+                        <outlet property="tienvetrai" destination="DkG-mv-ZuG" id="Zuk-FB-Zw1"/>
+                        <outlet property="tienvetraiscreen" destination="DkG-mv-ZuG" id="KcL-cK-9Lx"/>
+                        <outlet property="trungvephai" destination="I8a-G0-a6N" id="cDo-Xa-Irv"/>
+                        <outlet property="trungvephaiscreen" destination="I8a-G0-a6N" id="jak-3A-kbI"/>
+                        <outlet property="trungvetrai" destination="2Fk-hu-9Uj" id="tGB-JR-Xlo"/>
+                        <outlet property="trungvetraiscreen" destination="2Fk-hu-9Uj" id="djU-zU-ktl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="150.5" y="-22.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="t380879.png" width="500" height="753"/>
+    </resources>
+</document>
